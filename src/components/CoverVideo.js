@@ -19,7 +19,7 @@ video{
 const CoverVideo = () => {
   return (
     <VideoContainer >
-        <img src={GIF} style={{width:"100%", borderRadius:"50px"}}/>
+        <img src={GIF} style={{width:"100%", borderRadius:"50px"}} alt='img'/>
     </VideoContainer>
   )
 }

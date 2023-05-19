@@ -1,8 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import styled, { ThemeProvider } from "styled-components";
 // import Carousel from '../Carousel'
-import Button from "../Button";
-import { dark } from "../../styles/Themes";
 import Loading from "../Loading";
 
 const Carousel = lazy(() => import("../Carousel"));

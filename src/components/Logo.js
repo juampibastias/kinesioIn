@@ -21,7 +21,7 @@ font-size: ${props => props.theme.fontxxl};
 const Logo = () => {
   return (
     <LogoText>
-        <img src= {imgLogo} style={{width: "80px", height:"80px", marginTop:"20px"}} />
+        <img src= {imgLogo} style={{width: "80px", height:"80px", marginTop:"20px"}} alt='img' />
     </LogoText>
   )
 }
